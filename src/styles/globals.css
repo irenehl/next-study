@@ -2,3 +2,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;800&display=swap');
+@import '../styles/navbar.module.css';
+
+nav {
+    background-color: rgb(51, 66, 87);
+}
+
+body {
+    color: black;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+

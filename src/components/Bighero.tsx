@@ -1,12 +1,11 @@
-import { FunctionComponent } from "react";
-import { IBigHeroProps } from "../interfaces/interfaces";
+import { FunctionComponent, useState } from "react";
+import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import lottie from 'lottie-web';
 
-const BigHero: FunctionComponent<IBigHeroProps> = ({ title, subtitle }) => {    
+const BigHero: FunctionComponent = () => {    
     return(
-        <div className="w-full">
-            <h1>{ title }</h1>
-            <h2>{ subtitle }</h2>
-        </div>
+        <h1>El gualter se la come</h1>
     )
 }
 

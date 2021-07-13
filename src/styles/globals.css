@@ -5,14 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;800&display=swap');
 @import '../styles/navbar.module.css';
 
-nav {
-    background-color: rgb(51, 66, 87);
+:root {
+    --color-primary: #334257;
+    --color-secondary: #476072;
+    --color-tertiary: #548CA8;
+    --color-cuaternary: #EEEEEE;
+    --hover-color: #283338;
 }
 
-body {
-    color: black;
-    background-color: #EEEEEE;
-    margin: 0;
-    padding: 0;
+nav {
+    background-color: var(--color-primary);
 }
 

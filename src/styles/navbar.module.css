@@ -1,7 +1,13 @@
 .nav-icon {
-    color: #EEEEEE;
+    color: var(--color-cuaternary);
 }
 
-.nav-icon :hover{
-    color: #548CA8;
+.nav-item :hover {
+    color: var(--color-tertiary)!important;  
+    background-color: var(--hover-color);
+    transform: scale(1.05);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all .2s ease-in;
+    overflow: hidden;
 }

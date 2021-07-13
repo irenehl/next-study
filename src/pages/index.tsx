@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import BigHero from "../components/Bighero";
 import Layout from "../layout/Layout";
 
 const Home: FunctionComponent = () => {
@@ -7,7 +8,7 @@ const Home: FunctionComponent = () => {
   return(
     <Layout>
       <div>
-        
+        <BigHero></BigHero>
       </div>
     </Layout>
   )
